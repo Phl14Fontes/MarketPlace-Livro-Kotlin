@@ -8,3 +8,7 @@ spring:
     password: Fontes01@
   jackson:
     default-property-inclusion: non-null
+
+jwt:
+  secret: 57765128-08fe-42bb-b92b-e5a186cbeb7c
+  expiration: 999999

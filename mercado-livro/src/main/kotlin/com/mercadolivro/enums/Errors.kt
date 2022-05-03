@@ -3,6 +3,7 @@ package com.mercadolivro.enums
 enum class Errors(val code: String, val message: String) {
 
     //range requests inválidas 001- 099 -> requests
+    ML000("ML-000","Access Denied"),
     ML001("ML-001", "Invalid Request"),
 
     //range de 100-199 -> book

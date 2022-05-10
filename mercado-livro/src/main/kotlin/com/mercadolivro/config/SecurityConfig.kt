@@ -35,7 +35,8 @@ class SecurityConfig(
     private val PUBLIC_MATCHERS = arrayOf<String>()
 
     private val PUBLIC_GET_MATCHERS = arrayOf(
-        "/books"
+        "/books",
+        "/books/**"
     )
 
     private val PUBLIC_POST_MATCHERS = arrayOf(
